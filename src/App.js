@@ -8,7 +8,7 @@ function App() {
     
     <div className="container">
   <HashRouter>
-  <Route exact path="/css-study">
+  <Route exact path="/">
           <Wrapper/>
         </Route>
 
