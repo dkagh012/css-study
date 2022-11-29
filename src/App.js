@@ -8,7 +8,7 @@ function App() {
     
     <div className="container">
   <BrowserRouter>
-  <Route exact path="/">
+  <Route exact path="/css-study">
           <Wrapper/>
         </Route>
 
