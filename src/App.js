@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import Wrapper from './component/Wrapper';
-import { BrowserRouter, Route, Switch} from "react-router-dom";
+import { HashRouter, Route, Switch} from "react-router-dom";
 
 function App() {
   return (
     
     <div className="container">
-  <BrowserRouter>
+  <HashRouter>
   <Route exact path="/css-study">
           <Wrapper/>
         </Route>
@@ -15,7 +15,7 @@ function App() {
 
 
         
-  </BrowserRouter>
+  </HashRouter>
 
     
   
